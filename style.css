@@ -1,0 +1,78 @@
+:root {
+    --primary: #0d6efd;
+    --dark: #111;
+    --light: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--light);
+}
+
+.navbar {
+    background-color: var(--dark);
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.navbar a:hover {
+    color: var(--primary) !important;
+}
+
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('img/banner.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.sidebar {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.sidebar a {
+    display: block;
+    padding: 8px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar a:hover {
+    background: var(--primary);
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border: none;
+}
+
+footer {
+    background: var(--dark);
+    color: white;
+}

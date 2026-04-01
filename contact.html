@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+    <a class="navbar-brand" href="#">Portfolio</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</div>
+</nav>
+
+<main class="container mt-5">
+<div class="row g-4">
+
+    <aside class="col-lg-3">
+        <div class="sidebar">
+            <h5>Projecten</h5>
+            <nav>
+                <a href="project1.html">Project 1</a>
+                <a href="project2.html">Project 2</a>
+                <a href="project3.html">Project 3</a>
+                <a href="project4.html">Project 4</a>
+                <a href="project5.html">Project 5</a>
+                <a href="project6.html">Project 6</a>
+            </nav>
+        </div>
+    </aside>
+
+    <section class="col-lg-9">
+        <h2>Contacteer mij</h2>
+        <p>Heb je vragen of wil je samenwerken? Stuur me een bericht!</p>
+
+        <form class="mt-4">
+
+            <div class="mb-3">
+                <label for="naam" class="form-label">Naam</label>
+                <input type="text" id="naam" class="form-control" placeholder="Jouw naam" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="jouw@email.com" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="bericht" class="form-label">Bericht</label>
+                <textarea id="bericht" class="form-control" rows="5" placeholder="Typ hier je bericht..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Verstuur</button>
+
+        </form>
+
+        <div class="mt-5">
+            <h4>Contactgegevens</h4>
+            <p>Email: hamza.dont@student.ap.be</p>
+            <p>Telefoon: 0468213526</p>
+        </div>
+
+    </section>
+
+</div>
+</main>
+
+<footer class="bg-dark text-white text-center p-3 mt-5">
+<p>&copy; 2026 Mijn Portfolio</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
